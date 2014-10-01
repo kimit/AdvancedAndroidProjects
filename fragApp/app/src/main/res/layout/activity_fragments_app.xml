@@ -1,0 +1,31 @@
+<!--
+Author: Kimitoshi Senno
+Date: 	Sep 30, 2014
+For:	CS311D Homework 3
+File:	fragApp/app/src/main/res/layout/activity_fragments_app.xml
+Purpose:Define layout for the application in Portrait mode
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:name="com.senno.toshi.fragapp.Frag1Activity"
+        android:id="@+id/frag1"
+        android:layout_weight="0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/frag1" />
+
+    <fragment
+        android:name="com.senno.toshi.fragapp.Frag2Activity"
+        android:id="@+id/frag2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/frag2" />
+
+</LinearLayout>
