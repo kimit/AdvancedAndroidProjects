@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Author: Kimitoshi Senno
+Date: 	Oct,26 2014
+For:	CS311D Homework 4
+File:	PrimeNumService/app/src/main/AndroidManifest.xml
+Purpose:Manifest for Application
+-->
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.senno.toshi.primenumservice" >
 
