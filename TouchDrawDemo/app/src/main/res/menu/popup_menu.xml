@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Author: Kimitoshi Senno
+Date: 	Dec 14, 2014
+For:	CS311D Homework Extra Credit
+File:	TouchDrawDemo/app/src/main/res/menu/popup_menu.xml
+Purpose:Define items for color popup menu
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/black"
+        android:title="Black"/>
+
+    <item
+        android:id="@+id/red"
+        android:title="Red"/>
+
+    <item
+        android:id="@+id/blue"
+        android:title="Blue" />
+
+</menu>
